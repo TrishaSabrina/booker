@@ -1,0 +1,85 @@
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 60px;
+	float: left;
+	margin: 0 10px;
+	font-size: 20px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.prevs, .nexts {
+    cursor: pointer;
+    padding: 18px;
+    width: 28%;
+    border: 1px solid #ccc;
+    margin: auto;
+    background: url(../images/arrow.png) no-repeat;
+    border-radius: 30px;
+}
+
+.prevs:hover,
+.nexts:hover {
+	background-color: #ccc;
+}
+
+.nexts {
+	background-position: 50% 150%;
+}
+
+.prevs {
+	background-position: 50% -50%;
+}
+
+.time_pick {
+	position: relative;
+}
+
+.timepicker_wrap {
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 998;
+	display: none;
+	box-shadow: 0 6px 34px #ddd;
+	background: #fafafa;
+	border: 1px solid #fafafa;
+	float: left;
+	position: absolute;
+	top: 27px;
+	left: 0;
+}
+
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	/*background: url(../images/top_arr.png) no-repeat;*/
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #CCCCCC;
+    	border-radius: 5px 5px 5px 5px;
+    	float: none;
+    	margin: 0;
+    	text-align: center;
+    	width: 70%;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}

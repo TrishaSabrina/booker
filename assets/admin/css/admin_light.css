@@ -1,0 +1,83 @@
+aside.main-sidebar.sidebar-dark-primary.elevation-4 {
+    background: #fff;
+    box-shadow: none !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.brand-link {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+    color: #666 !important;
+}
+
+.sidebar a {
+    color: #3e4b5b !important;
+}
+
+.nav-sidebar > .nav-item.menu-open > .nav-link,
+.nav-sidebar > .nav-item:hover > .nav-link,
+.nav-sidebar > .nav-item > .nav-link:focus {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+.nav-sidebar > .nav-item > .nav-link.active:hover {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    background-color: rgba(40, 110, 251, 0.1) !important;
+    color: #286efb !important;
+}
+
+.nav-treeview > .nav-item > .nav-link.active,
+.nav-treeview > .nav-item > .nav-link.active:hover,
+.nav-treeview > .nav-item > .nav-link.active:focus {
+    background-color: rgba(40, 110, 251, 0.1) !important;
+    color: #286efb !important;
+}
+
+.nav-sidebar .nav-item > .nav-link {
+    margin-bottom: 0rem;
+}
+
+.content-wrapper {
+    background: #f5f5f5 !important;
+}
+
+.navbar-white {
+    background-color: #fff !important;
+}
+
+.main-footer {
+    background: #fafafa !important;
+    border-top: 1px solid #dee2e6;
+    color: #869099;
+    padding: 1rem;
+}
+
+a.nav-link.user-log {
+    font-size: 15px;
+    /* border: 1px solid #ddd; */
+    color: #286efb !important;
+    /* border-radius: 20px; */
+}
+
+a.nav-link.user-log:hover {
+    font-size: 15px;
+    /* border: 1px solid #ddd; */
+    color: #286efb !important;
+    background-color: rgba(40, 110, 251, 0.1) !important;
+    border-radius: 20px;
+}
+
+.card-body {
+    box-shadow: rgb(0 0 0 / 3%) 0px 2px 12px !important;
+}
